@@ -1,0 +1,24 @@
+.body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: #F5F5F5;
+    color: #212121;
+   
+}
+ul {list-style: none;}
+/* header */
+.header {}
+/* nav */
+.header-nav {}
+/* logo */
+.header-logo {}
+/* header list */
+.header-list {}
+/* header items */
+.header-items {}
+/* header item */
+.header-item {}
+/* header-contacts */
+.header-contacts {}
+
+
