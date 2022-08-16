@@ -1,24 +1,208 @@
-.body{
+body{
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    background-color: #F5F5F5;
+    font-size: 16px;
     color: #212121;
-   
 }
-ul {list-style: none;}
 /* header */
 .header {}
+
 /* nav */
 .header-nav {}
+
 /* logo */
-.header-logo {}
+.header-logo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+}
+.header-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 1.6;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+
 /* header list */
-.header-list {}
+.header-list {
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #212121;
+}
+
 /* header items */
-.header-items {}
+.header-items>{
+        
+}
+
 /* header item */
-.header-item {}
+.header-item>a {
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+          color: #212121;
+}
+.header-item>a:hover,
+.header-item>a:focus {
+        color: #2196F3;
+}
+
 /* header-contacts */
-.header-contacts {}
+.header-contacts>a {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.header-contacts>a:hover,
+.header-contacts>a:focus {
+        color: #757575;
+}
+
+/* HERO */
+.hero {
+        background-color: #2F303A;
+        width: 1600px;
+}
+
+.hero-title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
+.hero-button {
+        background-color: #2196F3;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+}
+/* H2-section title */
+.section-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+/* advantage */
+
+.advantage-section {
+        width: 1170px;
+}
+.advantage-section-item {
+        width: 270px;
+}
+.advantage-section-subtitle {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+}
+.advantage-section-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+/* WORKING */
+.working-section {
+        width: 1170px;
+
+}
+.working-section-item {
+
+}
+.working-section-list {
+
+}
+
+.working-section-img {
+
+}
+
+/* TEAM */
+.team-section {
+        width: 1600px;
+}
+.team-section-item {}
+.team-section-list {}
+.team-section-img {}
+.team-section-subtitle { 
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;}
+.team-section-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;}
+
+/* FOOTER */
+.footer {
+        background-color: #2F303A;
+        width: 1600px;
+        
+}
+.footer-add{}
+.footer-item{}
+.footer-list>a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+.footer-list>a:hover,
+.footer-list>a:focus {
+        color: #2196F3;
+}
+.footer-link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
 
 
